@@ -1,0 +1,40 @@
+
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+issueTrackerURL=""
+logoFile="pack.png"
+[[mods]]
+modId="obville"
+version="${file.jarVersion}"
+displayName="Observant Villagers"
+updateJSONURL=""
+displayURL="https://www.curseforge.com/minecraft/mc-mods/observant-villagers"
+credits=""
+authors="Stereowalker"
+description='''
+A village reputation system where your actions have consequences.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.obville]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[40.1,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.obville]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+	
+[[dependencies.obville]]
+    modId="unionlib"
+    mandatory=true
+    versionRange="[7.2.0,7.3.0)"
+    ordering="BEFORE"
+    side="BOTH"
+	
+

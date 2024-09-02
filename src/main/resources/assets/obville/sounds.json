@@ -1,0 +1,4 @@
+{
+	"positive": { "category": "player", "subtitle": "Reputation Gain", "sounds": ["obville:positive_point"]},
+	"negative": { "category": "player", "subtitle": "Reputation Loss", "sounds": ["obville:negative_point"]}
+}
